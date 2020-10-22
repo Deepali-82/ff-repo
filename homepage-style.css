@@ -1,0 +1,46 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	background-image:url(ftball.jpg);
+	background-size:100%;
+	
+	font-family:sans-serif;
+}
+.menubar{
+	background:rgb(0,100,0);
+	text-align:center;
+}
+.heading{
+	color:yellow;
+	
+}
+.menubar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menubar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+	
+}
+.menubar ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+.active, .menubar ul li:hover{
+	background:#2bab0d;
+	border-radius:3px;
+}
+.menubar .fa{
+	margin-right:5px;
+}
+
+.icon{
+	display:right;
+}
